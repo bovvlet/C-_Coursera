@@ -1,10 +1,21 @@
 #include <iostream>
+#include <set>
 
 using namespace std;
 
+set<string>words;
+
 int main() {
-    int A, B;
-    cin >> A >> B;
-    cout << A + B;
+    int Q;
+    cin >> Q;
+
+    while (Q --) {
+        string s;
+        cin >> s;
+
+        words.insert(s);
+    }
+
+    cout << words.size();
     return 0;
 }
