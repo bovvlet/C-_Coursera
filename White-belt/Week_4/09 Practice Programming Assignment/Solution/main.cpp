@@ -2,9 +2,12 @@
 
 using namespace std;
 
+void EnsureEqual(const string& left, const string& right) {
+    if (left != right) {
+        throw runtime_error(left + " != " + right);
+    }
+}
+
 int main() {
-    int A, B;
-    cin >> A >> B;
-    cout << A + B;
-    return 0;
+  return 0;
 }
