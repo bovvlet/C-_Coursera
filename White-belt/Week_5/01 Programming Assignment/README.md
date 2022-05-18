@@ -107,7 +107,7 @@ Month value is invalid: 13
 
 Допишите в этот шаблон недостающие части решения и отправьте его на проверку:
 
-[project_template.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-white-belt/blob/master/Week_5/01%20Programming%20Assignment/Source/project_template.cpp)
+[project_template.cpp](https://github.com/bovvlet/C_plus_plus_Coursera/blob/master/White-belt/Week_5/01%20Programming%20Assignment/Source/project_template.cpp)
 
 ##### Примечания #####
 ###### Преобразование числа к строке ######
