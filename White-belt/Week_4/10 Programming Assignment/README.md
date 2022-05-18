@@ -23,4 +23,4 @@ Rational operator / (const Rational & lhs, const Rational & rhs);
 Так же, как и в задачах на перегрузку операторов, вам будет предложен файл с заготовкой кода. Функция *main* в этом файле содержит ряд юнит-тестов, которые позволят вам проверить свою реализацию. При проверке вашего решения оно будет тестироваться на более полном наборе тестов, так что успешное прохождение всех юнит-тестов не гарантирует, что ваша реализация будет зачтена.
 
 Шаблон программы:
-[rational_throw.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-white-belt/blob/master/Week_4/10%20Programming%20Assignment/Source/rational_throw.cpp)
+[rational_throw.cpp](https://github.com/bovvlet/C_plus_plus_Coursera/blob/master/White-belt/Week_4/10%20Programming%20Assignment/Source/rational_throw.cpp)

@@ -59,7 +59,7 @@ r.numerator = 6; // Нарушен инвариант несократимост
 
 Шаблон программы:
 
-[rational_interface.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-white-belt/blob/master/Week_4/08%20Programming%20Assignment/Source/rational_interface.cpp)
+[rational_interface.cpp](https://github.com/bovvlet/C_plus_plus_Coursera/blob/master/White-belt/Week_4/08%20Programming%20Assignment/Source/rational_interface.cpp)
 
 ##### Часть 2 #####
 Реализуйте для класса *Rational* операторы ==, + и - так, чтобы операции с дробями можно было записывать естественным образом. Например, следующий код должен быть валидным:
@@ -71,7 +71,7 @@ if (r == Rational(7, 12)) {
 ```
 Шаблон программы:
 
-[rational_eq_add_sub.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-white-belt/blob/master/Week_4/08%20Programming%20Assignment/Source/rational_eq_add_sub.cpp)
+[rational_eq_add_sub.cpp](https://github.com/bovvlet/C_plus_plus_Coursera/blob/master/White-belt/Week_4/08%20Programming%20Assignment/Source/rational_eq_add_sub.cpp)
 
 ##### Часть 3 #####
 Аналогично предыдущей части, реализуйте операторы * и /. Например, следующий код должен быть валидным:
@@ -85,7 +85,7 @@ if (r == Rational(2, 3)) {
 
 Шаблон программы:
 
-[rational_mult_div.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-white-belt/blob/master/Week_4/08%20Programming%20Assignment/Source/rational_mult_div.cpp)
+[rational_mult_div.cpp](https://github.com/bovvlet/C_plus_plus_Coursera/blob/master/White-belt/Week_4/08%20Programming%20Assignment/Source/rational_mult_div.cpp)
 
 ##### Часть 4 #####
 В этой части вам нужно реализовать операторы ввода и вывода для класса *Rational*. В результате у вас должен работать, например, такой код
@@ -96,7 +96,7 @@ cout << r;
 ```
 Шаблон программы:
 
-[rational_io.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-white-belt/blob/master/Week_4/08%20Programming%20Assignment/Source/rational_io.cpp)
+[rational_io.cpp](https://github.com/bovvlet/C_plus_plus_Coursera/blob/master/White-belt/Week_4/08%20Programming%20Assignment/Source/rational_io.cpp)
 
 ##### Часть 5 #####
 Наконец, вам нужно реализовать возможность использовать объекты класса *Rational* в качестве элементов контейнера *set* и ключей в контейнере *map*. Пример:
@@ -109,4 +109,4 @@ name[Rational(1, 2)] = "одна вторая";
 ```
 Шаблон программы:
 
-[rational_map.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-white-belt/blob/master/Week_4/08%20Programming%20Assignment/Source/rational_map.cpp)
+[rational_map.cpp](https://github.com/bovvlet/C_plus_plus_Coursera/blob/master/White-belt/Week_4/08%20Programming%20Assignment/Source/rational_map.cpp)
