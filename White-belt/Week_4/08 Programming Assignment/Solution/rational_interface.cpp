@@ -1,31 +1,43 @@
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
-class Rational
-{
+int gcd(int a, int b) {
+	return abs(__gcd(a, b));
+}
+
+class Rational {
 public:
-	Rational()
-	{
-		// Реализуйте конструктор по умолчанию
+	Rational() {
+		numerator = 0;
+		denominator = 1;
+	};
+	void beuty_Rational() {
+		if (numerator == 0){
+			denominator = 1;
+		}
+		if (denominator < 0) {
+			numerator = -numerator;
+			denominator = -denominator;
+		}
+		int common_divisor = gcd(numerator, denominator);
+		numerator /= common_divisor;
+		denominator /= common_divisor;
 	}
-
-	Rational(int numerator, int denominator)
-	{
-		// Реализуйте конструктор
+	Rational(int numerator, int denominator) {
+		this->numerator = numerator;
+		this->denominator = denominator;
+		beuty_Rational();
 	}
-
-	int Numerator() const
-	{
-		// Реализуйте этот метод
+	int Numerator() const {
+		return numerator;
 	}
-
-	int Denominator() const
-	{
-		// Реализуйте этот метод
+	int Denominator() const {
+		return denominator;
 	}
 private:
-	// Добавьте поля
+	int numerator, denominator;
 };
 
 int main()
